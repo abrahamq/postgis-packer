@@ -40,7 +40,6 @@
       "iso_checksum": "736f2c5700313494a2282092ca0f8b0048883ed48c5fdcf585d6e1852a3a110f",
       "ssh_username": "vagrant",
       "ssh_password": "vagrant",
-      "ssh_port": 22,
       "ssh_wait_timeout": "10000s",
       "shutdown_command": "echo 'vagrant'|sudo -S shutdown -P now",
       "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
