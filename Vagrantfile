@@ -5,7 +5,8 @@ Vagrant.configure("2") do |config|
   config.ssh.insert_key = false
   config.ssh.username = 'vagrant'
   config.ssh.password = 'vagrant'
-  config.vm.synced_folder '.', '/vagrant', type: 'nfs'
+  config.vm.synced_folder '.', '/vagrant', type: 'nfs', disabled: true
+  config.vm.network :forwarded_port, guest:4001, host:3001
 
 #  # VMware Fusion.
 #  # `vagrant up vmware --provider=vmware_fusion`

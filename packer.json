@@ -65,7 +65,13 @@
           "{{.Name}}",
           "--cpus",
           "1"
-        ]
+        ], 
+	[
+          "modifyvm",
+          "{{.Name}}",
+          "--natpf1",
+          "guest_ssh,tcp,,4001,,3001"
+         ]
       ]
     }
   ],
