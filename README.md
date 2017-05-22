@@ -1,3 +1,5 @@
+DEPRECATED in favor of docker containers- Dockerfile is in Hermes repository. 
+
 Packer build script for a vagrant box 
 for the hermes-server. 
 
